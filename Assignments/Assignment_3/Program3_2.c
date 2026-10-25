@@ -26,9 +26,13 @@ void DisplayFactor(int iNo)
 
     for(i=1;i<=(iNo/2);i++)
     {
-        if(iNo % i == 0 && i%2 ==0)
+        if(iNo % i == 0 )
         {
-            printf("%d ",i);
+            
+            if( i%2 ==0)
+            {
+                printf("%d ",i);
+            }
         }
     }
 }
