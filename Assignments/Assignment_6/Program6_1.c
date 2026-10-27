@@ -1,6 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+//////////////////////////////////////////////////////////////////////////////////////
+//      
+// Function Name : CalculateElectricityBill
+// Description   : It is used to calculate Electricity bill 
+// Input         : Integer
+// Output        : void
+// Author        : Prathmesh Sandipan Pawar
+// Date          : 28/10/2026
+//
+//////////////////////////////////////////////////////////////////////////////////////
 void CalculateElectricityBill(int iUnit)
 {
     float fBill  = 0.0f, fTemp = 0.0f;
