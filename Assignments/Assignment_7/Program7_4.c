@@ -12,7 +12,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////////
 
-void Display(int iNo)
+void OddDisplay(int iNo)
 {
     int iCnt = 0;
 
@@ -38,7 +38,7 @@ int main()
     printf("Enter Number :");
     scanf("%d",&iValue);
 
-    Display(iValue);
+    OddDisplay(iValue);
 
 
     return EXIT_SUCCESS;
