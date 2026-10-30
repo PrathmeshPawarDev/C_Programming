@@ -1,5 +1,15 @@
 #include<stdio.h>
 #include<stdlib.h>
+//////////////////////////////////////////////////////////////////////////////////////
+//      
+// Function Name : pattern
+// Description   : It is used to Display number of $   * patterns
+// Input         : Integer
+// Output        : void
+// Author        : Prathmesh Sandipan Pawar
+// Date          : 30/10/2026
+//
+//////////////////////////////////////////////////////////////////////////////////////
 
 void pattern(int iNo)
 {
