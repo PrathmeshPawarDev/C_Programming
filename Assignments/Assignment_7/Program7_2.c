@@ -2,8 +2,8 @@
 #include<stdlib.h>
 //////////////////////////////////////////////////////////////////////////////////////
 //      
-// Function Name : pattern
-// Description   : It is used to Display number of $   * patterns
+// Function Name : Display
+// Description   : It is used to Display numbers upto n
 // Input         : Integer
 // Output        : void
 // Author        : Prathmesh Sandipan Pawar
