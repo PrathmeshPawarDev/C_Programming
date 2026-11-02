@@ -6,7 +6,7 @@
 //////////////////////////////////////////////////////////////////////////////////////
 //
 // Function Name : CircleArea
-// Description   : It is used to Diplay Area of Circle
+// Description   : It is used to calculate Area of Circle
 // Input         : float
 // Output        : double
 // Author        : Prathmesh Sandipan Pawar
