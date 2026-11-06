@@ -1,5 +1,10 @@
 #include<stdio.h>
 #include<stdlib.h>
+
+#define True 1
+#define False 0
+
+typedef int BOOL;
 //////////////////////////////////////////////////////////////////////////////////////
 //
 // Function Name : DisplayDigits
@@ -11,10 +16,11 @@
 //
 //////////////////////////////////////////////////////////////////////////////////////
 
-void DisplayDigits(int iNo)
+BOOL DisplayDigits(int iNo)
 {
 
-    int iDigit = 0, iFlag = 0;
+    int iDigit = 0;
+    BOOL bFlag = False;
     if(iNo < 0)
     {
         iNo = -iNo;
@@ -24,18 +30,14 @@ void DisplayDigits(int iNo)
         iDigit = iNo % 10;
         if(iDigit == 0)
         {
-            printf("It contais zero");
-            iFlag = 1;
+            bFlag = True;
             break;
         }
         iNo = iNo/10;
 
     }
 
-    if(iFlag == 0)
-    {
-        printf(" There is no zero");
-    }
+    return bFlag;
 
 }
 
@@ -43,12 +45,21 @@ int main()
 {
 
     int iValue = 0;
+    BOOL bRet = False;
 
     printf("Enter a Number :");
     scanf("%d",&iValue);
 
-    DisplayDigits(iValue);
+    bRet = DisplayDigits(iValue);
 
+    if(bRet == True)
+    {
+        printf("It contains zero ");
+    }
+    else
+    {
+        printf("There is no zero ");
+    }
 
     return EXIT_SUCCESS;
 }
@@ -65,5 +76,7 @@ int main()
 //        1000              it Contain zero
 //
 //        -6754             there is no zero 
+//
+//         0001             there is no zero 
 //
 ///////////////////////////////////////////////////////////////////////////////////////
