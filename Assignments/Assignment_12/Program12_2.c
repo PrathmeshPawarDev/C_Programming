@@ -7,16 +7,16 @@
 typedef int BOOL;
 //////////////////////////////////////////////////////////////////////////////////////
 //
-// Function Name : DisplayDigits
+// Function Name : ChkZero
 // Description   : It is used to Display the 0 is present in digit or not 
 // Input         : Integer
-// Output        : void
+// Output        : Boolean
 // Author        : Prathmesh Sandipan Pawar
 // Date          : 6/11/2026
 //
 //////////////////////////////////////////////////////////////////////////////////////
 
-BOOL DisplayDigits(int iNo)
+BOOL ChkZero(int iNo)
 {
 
     int iDigit = 0;
@@ -50,7 +50,7 @@ int main()
     printf("Enter a Number :");
     scanf("%d",&iValue);
 
-    bRet = DisplayDigits(iValue);
+    bRet = ChkZero(iValue);
 
     if(bRet == True)
     {
