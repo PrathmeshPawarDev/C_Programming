@@ -9,7 +9,7 @@ typedef int BOOL;
 
 //////////////////////////////////////////////////////////////////////////////////////
 //
-// Function Name : chkGreater
+// Function Name : ChkGreater
 // Description   : It is used to check the number is greater than 100 or not  
 // Input         : Integer
 // Output        : Boolean
@@ -19,7 +19,7 @@ typedef int BOOL;
 //////////////////////////////////////////////////////////////////////////////////////
 
 
-BOOL chkGreater(int iNo)
+BOOL ChkGreater(int iNo)
 {
     BOOL bResult = FALSE;
 
@@ -42,7 +42,7 @@ int main()
     printf("Enter a Number :");
     scanf("%d",&iValue);
 
-    bRet = chkGreater(iValue);
+    bRet = ChkGreater(iValue);
 
     if(bRet == TRUE )
     {
