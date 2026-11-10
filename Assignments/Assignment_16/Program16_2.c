@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+void pattern(int iRows ,int iCols)
+{
+    int i = 0,j = 0;
+    char ch1 = 'A',ch2 = 'a';
+    for(i = 1; i <= iRows ; i++)
+    {
+        ch1 = 'A';
+        ch2 = 'a';
+        for(j = 1;j<= iCols;j++)
+        {
+            if(i % 2 != 0)
+            {
+                printf("%c\t",ch1);
+                ch1++;
+            }else
+            {
+                printf("%c\t",ch2);
+                ch2++;
+            }
+            
+        }
+         
+        printf("\n");
+
+       
+    }
+   
+}
+
+int main()
+{
+
+    int iValue1 = 0,iValue2 = 0;
+
+    printf("Enter How many Rows you want :");
+    scanf("%d",&iValue1);
+
+    printf("Enter How many Columns you want :");
+    scanf("%d",&iValue2);
+
+    pattern(iValue1,iValue2);
+
+    return EXIT_SUCCESS;
+}
