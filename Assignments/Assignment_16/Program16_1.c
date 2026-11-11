@@ -1,3 +1,12 @@
+/*
+Enter How many Rows you want :4
+Enter How many Columns you want :4
+A       B       C       D
+A       B       C       D
+A       B       C       D
+A       B       C       D
+
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
