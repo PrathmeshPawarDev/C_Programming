@@ -1,3 +1,12 @@
+/*
+Enter How many Rows you want :4
+Enter How many Columns you want :4
+A       B       C       D
+a       b       c       d
+A       B       C       D
+a       b       c       d
+
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -45,3 +54,4 @@ int main()
 
     return EXIT_SUCCESS;
 }
+
