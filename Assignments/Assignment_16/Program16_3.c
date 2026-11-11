@@ -1,5 +1,6 @@
 /*
-
+Enter How many Rows you want :3
+Enter How many Columns you want :5
 A       A       A       A       A
 B       B       B       B       B
 C       C       C       C       C
