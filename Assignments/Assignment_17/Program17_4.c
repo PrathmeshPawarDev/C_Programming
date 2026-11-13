@@ -14,28 +14,28 @@ Enter How many Columns you want :5
 
 void pattern(int iRows, int iCols)
 {
-    int i = 0, j = 0 , k = 0,k1 = 0;
+    int i = 0, j = 0 , k1 = 0,k2 = 0;
     
-    k = 1;
-    k1 = -1;
+    k1 = 1;
+    k2 = -1;
     for (i = 1; i <= iRows; i++)
     {
-        if(k > 5  )
+        if(k1 > 5  )
             {
-                k = 1;
-                k1 = -1;
+                k1 = 1;
+                k2 = -1;
             }
         for (j = 1; j <= iCols; j++)
         {   
             if( i % 2 == 0)
             {
-                printf("%d\t", k1);
-                k1--;
+                printf("%d\t", k2);
+                k2--;
             }
             else
             {
-                printf("%d\t", k);
-                k++;
+                printf("%d\t", k1);
+                k1++;
             }
            
             
