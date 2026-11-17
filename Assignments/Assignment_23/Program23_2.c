@@ -33,7 +33,7 @@ int main()
     printf("Enter String  :");
     scanf("%[^\n]s",arr);
 
-    strlwrx(arr);
+    struprx(arr);
 
     printf("Modified string is : %s",arr);
 
