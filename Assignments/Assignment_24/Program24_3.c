@@ -6,7 +6,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 //
 // Function Name    :   FirstChar
-// Description      :   return count of frequency of character from string  
+// Description      :   return index of first character from string  
 // Input            :   Character Pointer ,Character 
 // Output           :   Integer
 // Author           :   Prathmesh Sandipan Pawar
