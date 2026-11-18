@@ -5,7 +5,7 @@
 // Function Name    :   CountWhite
 // Description      :   return Count of white space from string
 // Input            :   Character Pointer
-// Output           :   Void
+// Output           :   Integer
 // Author           :   Prathmesh Sandipan Pawar
 // Date             :   18/11/2026
 //
