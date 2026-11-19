@@ -41,10 +41,10 @@ int main()
 
     if(fRet == TRUE)
     {
-        printf("True");
+        printf("Character is Capital");
     }else
     {
-        printf("False");
+        printf("Character is not Capital");
     }
 
 
